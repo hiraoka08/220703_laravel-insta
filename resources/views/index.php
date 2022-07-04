@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <p>This is my site. <a href="<?php include('layouts/app.php') ?>">Please click here to check it.</a></p>
+        <p>This is my site. <a href="<?php include('layouts/app.blade.php') ?>">Please click here to check it.</a></p>
     </div>
 </body>
 </html>
