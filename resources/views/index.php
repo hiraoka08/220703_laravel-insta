@@ -1,3 +1,7 @@
+<?php
+    $url = "layouts/app.blade.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +13,7 @@
 </head>
 <body>
     <div class="container">
-        <p>This is my site. <a href="layouts/app.blade.php">Please click here to check it.</a></p>
+        <p>This is my site. <a href="<?php echo $url ?>">Please click here to check it.</a></p>
     </div>
 </body>
 </html>
