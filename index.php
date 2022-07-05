@@ -1,5 +1,5 @@
 <?php
-    $url = "layouts/app.blade.php";
+    $url = "resources/views/layouts/app.blade.php";
 ?>
 
 <!DOCTYPE html>
